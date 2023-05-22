@@ -25,7 +25,7 @@ int main(void)
 	// Close the file and remove it from the memory
 	fclose(file_pointer);
 
-	// Print readed string
+	// Print read string
 	printf("%s", file_read_string);
 
 	return 0;
