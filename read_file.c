@@ -15,9 +15,11 @@ int main(void)
 		return 1;
 	}
 
-	// Read file
+	// Read a line from the file
 	string file_read_string;
 	
+	// Stop reading the file if there is an EOF, a newline character
+	// or we reach 150 characters read
 	fgets(file_read_string, 150, file_pointer);
 
 	// Close the file and remove it from the memory
